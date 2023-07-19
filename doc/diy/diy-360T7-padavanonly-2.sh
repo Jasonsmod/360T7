@@ -33,7 +33,7 @@ sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 git clone --depth 1 https://github.com/https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # git clone --depth 1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
 # git clone  --depth 1 https://github.com/jerrykuku/go-aliyundrive-webdav package/go-aliyundrive-webdav 
-git clone  --depth 1 https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav package/luci-app-go-aliyundrive-webdav
+git clone --depth 1 https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav package/luci-app-go-aliyundrive-webdav
 # 额外依赖
 
 # 科学上网插件
