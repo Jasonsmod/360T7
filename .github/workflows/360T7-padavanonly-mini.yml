@@ -13,9 +13,8 @@ on:
 
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrtARM
-  REPO_BRANCH: MT7981
+  REPO_BRANCH: mt7981
   #REPO_BRANCH: openwrt-18.06
-  
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./doc/config/360T7-padavanonly-mini.config
   DIY_P1_SH: ./doc/diy/diy-360T7-hanwckf-1.sh
