@@ -29,6 +29,12 @@ sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 # git clone --depth 1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 # git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+# git clone --depth 1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-adguardhome package/luci-app-adguardhome
+git clone --depth 1 https://github.com/https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+# git clone --depth 1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
+# git clone  --depth 1 https://github.com/jerrykuku/go-aliyundrive-webdav package/go-aliyundrive-webdav 
+git clone  --depth 1 https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav package/luci-app-go-aliyundrive-webdav
+# 额外依赖
 
 # 科学上网插件
 # svn co https://github.com/kiddin9/openwrt-bypass/trunk/luci-app-bypass package/luci-app-bypass
