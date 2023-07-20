@@ -35,7 +35,7 @@ sed -i 's,mirrors.vsean.net/openwrt,mirrors.pku.edu.cn/immortalwrt,g'  package/e
 # git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 # git clone --depth 1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-adguardhome package/luci-app-adguardhome
-git clone --depth 1 https://github.com/https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone --depth 1 https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # git clone --depth 1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
 # git clone  --depth 1 https://github.com/jerrykuku/go-aliyundrive-webdav package/go-aliyundrive-webdav 
 git clone --depth 1 https://github.com/jerrykuku/go-aliyundrive-webdav package/go-aliyundrive-webdav
