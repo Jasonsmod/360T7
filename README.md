@@ -70,8 +70,4 @@ GitHub Actions For 360T7 OpenWrt
 
 ## Star History
 
-<hr>
- 
-[![Star History Chart](https://api.star-history.com/svg?repos=hkk666/360T7&type=Date)](https://star-history.com/#bytebase/star-history&Date)
- 
- <hr>
+
