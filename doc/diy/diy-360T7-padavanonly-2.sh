@@ -14,7 +14,12 @@ sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 #sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='OpenWrt By hkk666 ($(date +%Y-%m-%d %H:%M)) '/g" package/base-files/files/etc/openwrt_release
 # 移除重复软件包
 #rm -rf feeds/luci/themes/luci-theme-argon
-
+# 修改时区 UTF-8
+sed -i 's/UTC/CST-8/g'  package/base-files/files/bin/config_generate
+# 时区
+sed -i 's/pool.ntp.org/cn.pool.ntp.org/g'  package/base-files/files/bin/config_generate
+# 替换源 
+sed -i 's,mirrors.vsean.net/openwrt,mirrors.pku.edu.cn/immortalwrt,g'  package/emortal/default-settings/files/99-default-settings-chinese
 # 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
@@ -33,6 +38,7 @@ sed -i 's/192.168.6.1/192.168.50.1/g' package/base-files/files/bin/config_genera
 git clone --depth 1 https://github.com/https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # git clone --depth 1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
 # git clone  --depth 1 https://github.com/jerrykuku/go-aliyundrive-webdav package/go-aliyundrive-webdav 
+git clone --depth 1 https://github.com/jerrykuku/go-aliyundrive-webdav package/go-aliyundrive-webdav
 git clone --depth 1 https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav package/luci-app-go-aliyundrive-webdav
 # 额外依赖
 
